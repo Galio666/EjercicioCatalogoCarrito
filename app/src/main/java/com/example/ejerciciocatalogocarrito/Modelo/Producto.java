@@ -27,8 +27,11 @@ public class Producto implements Serializable {
     @NonNull
     private String iamgenDetalle;
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c0c81184108437d0d508df64c956b129ce81a6ff
     public Producto() {
     }
 

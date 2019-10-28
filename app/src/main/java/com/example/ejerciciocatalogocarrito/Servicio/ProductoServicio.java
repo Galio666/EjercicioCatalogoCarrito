@@ -1,6 +1,7 @@
 package com.example.ejerciciocatalogocarrito.Servicio;
 
 
+<<<<<<< HEAD
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -19,6 +20,12 @@ public class ProductoServicio extends AppCompatActivity {
     TextView txtDescripcion;
     TextView txtPrecio;
     TextView marca;
+=======
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+public class ProductoServicio {
+>>>>>>> c0c81184108437d0d508df64c956b129ce81a6ff
 
   public ProductoServicio(){
         // Write a message to the database
@@ -26,6 +33,7 @@ public class ProductoServicio extends AppCompatActivity {
         DatabaseReference myRef = database.getReference("message");
     }
 
+<<<<<<< HEAD
     public void  agregarProducto(Producto producto){
 
 
@@ -35,6 +43,15 @@ public class ProductoServicio extends AppCompatActivity {
 
     public void mostrarProducto(DataSnapshot dataSnapshot){
   }
+=======
+    public void  agregarProducto(){
+
+    }
+
+    public void mostrarProducto(){
+
+    }
+>>>>>>> c0c81184108437d0d508df64c956b129ce81a6ff
 
     public void editarPoducto(){
 
